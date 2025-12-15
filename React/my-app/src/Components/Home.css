@@ -1,0 +1,60 @@
+:root {
+  --bg-main: #2b2f3f;
+  --card-bg: #383c4d;
+  --text-color: #ffffff;
+  --box-shadow-color: rgba(255, 255, 255, 0.1);
+  --accent-green: #00d084;
+  --line-green: #29cc8b;
+}
+
+.home-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: var(--bg-main);
+  overflow: hidden;
+}
+
+.home-wrapper .background-graph {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.08;
+  z-index: 0;
+}
+
+.home-wrapper .card {
+  background-color: var(--card-bg);
+  padding: 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 20px var(--box-shadow-color);
+  text-align: center;
+  max-width: 500px;
+  z-index: 1;
+}
+
+.home-wrapper .title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.home-wrapper .button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.home-wrapper .login-button {
+  background-color: var(--accent-green);
+  border: none;
+}
+
+.home-wrapper .signin-button {
+  background-color: var(--line-green);
+  border: none;
+}
