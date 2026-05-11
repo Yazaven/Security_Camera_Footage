@@ -102,7 +102,7 @@ project-root/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ElishevaOyerbach/Security_Cameras_Project.git
+git clone https://github.com/Yazaven/Security_Cameras_Project.git
 cd security-cameras-project
 ```
 
@@ -204,13 +204,4 @@ Visit `http://localhost:3000` to use the app.
 - Facial recognition per frame
 - Cloud storage for videos
 - Alerts for suspicious activity
-- Audit log for admin actions
-
----
-
-
-## Developed by
-
-**Elisheva Oyerbach**  
-Final Project | Full Stack Security System  
-React • Node.js • Python • Computer Vision • MongoDB
+ 
