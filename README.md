@@ -102,7 +102,7 @@ project-root/
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/Yazaven/Security_Cameras_Project.git](https://github.com/Yazaven/Security_Camera_Footage)
+git clone https://github.com/Yazaven/Security_Camera_Footage
 cd security-cameras-project
 ```
 
